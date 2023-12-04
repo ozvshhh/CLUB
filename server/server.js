@@ -5,7 +5,7 @@ const cors = require("cors"); // cors 설정을 편안하게 하는 패키지
 
 
 const test = require('./Router/test');
-const python = require('./Router/python_test');
+// const python = require('./Router/python_test');
 const api = require('./Router/api');
 const sql = require('./Router/sql');
 
