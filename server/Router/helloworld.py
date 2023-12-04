@@ -1,6 +1,6 @@
-def main():
-    print("hello_python",end="")
+# def main():
+#     print("hello_python",end="")
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 

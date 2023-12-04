@@ -20,7 +20,7 @@ app.use(function(req, res, next) {
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
-app.use('/python',python);
+//app.use('/python',python);
 app.use('/test',test);
 app.use('/api',api);
 //app.use('/sql',sql);
