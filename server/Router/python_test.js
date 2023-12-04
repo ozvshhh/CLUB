@@ -7,7 +7,7 @@ var out;
 // 1. child-process모듈의 spawn 취득
 const spawn = require('child_process').spawn;
 // 2. spawn을 통해 "python 파이썬파일.py" 명령어 실행
-const result = spawn('python', ['C:\\Users\\dlgkd\\OneDrive\\문서\\programming\\CLUBS\\server\\Router\\helloworld.py']);
+const result = spawn('python', ['..\\helloworld.py']);
 // 3. stdout의 'data'이벤트리스너로 실행결과를 받는다.
 result.stdout.on('data', function (data) {
   out = data.toString()
